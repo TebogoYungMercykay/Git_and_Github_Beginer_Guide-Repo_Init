@@ -1,3 +1,5 @@
+________________________________________________________________
+______________ Creating a repository ___________________________
 echo "# RepositoryName" >> README.md
 git init
 git add README.md
