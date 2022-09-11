@@ -3,8 +3,15 @@ ____________ Explanation Of What This Steps Do _______________________
 This method will create a new "unforked" repository,
 while maintaining everything else (commit history, branches and tags).
 ______________________________________________________________________
-__________________________ STEPS _____________________________________
+___________________ Option 1 - STEPS _________________________________
 Step 1: git clone --bare https://github.com/{username}/{repository}
 Step 2: Delete original repository in https://github.com/{username}/{repository}/settings.
 Step 3: Create new repository with the name {repository} at https://github.com/new.
 Step 4: cd {repository}.git and git push --mirror https://github.com/{username}/{repository}
+______________________________________________________________________
+___________________ Option 2 - STEPS _________________________________
+Step 1: Click the "+" on top right corner, select "Import repository"
+Step 2: Paste the old repo url (like https://github.com/user/repo) and enter a new name.
+Step 3: Click "Begin import"
+Step 4: Email notification when copy'n'paste is done
+Step 5: Delete old Repo
