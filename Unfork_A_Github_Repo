@@ -1,0 +1,10 @@
+______________________________________________________________________
+____________ Explanation Of What This Steps Do _______________________
+This method will create a new "unforked" repository,
+while maintaining everything else (commit history, branches and tags).
+______________________________________________________________________
+__________________________ STEPS _____________________________________
+Step 1: git clone --bare https://github.com/{username}/{repository}
+Step 2: Delete original repository in https://github.com/{username}/{repository}/settings.
+Step 3: Create new repository with the name {repository} at https://github.com/new.
+Step 4: cd {repository}.git and git push --mirror https://github.com/{username}/{repository}
