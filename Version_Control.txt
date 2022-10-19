@@ -1,0 +1,23 @@
+1. Fetch the recent remote repository history
+    $ git fetch upstream
+    
+2. Merge the upstream master branch into your master branch (Make certain you are in the master branch)
+    $ git checkout master
+    $ git merge upstream/master
+    
+3. Git pull : Pull = Fetch + Merge
+    $ git pull upstream
+    
+4. Git push : Sending Your Commits to Remote Repositories
+    - git add .
+    - git commit -m "Commit message"
+    $ git push upstream master
+    
+5. github pull requests
+    One protocol for updating repositories that we use at Software Carpentry is the "pull request."
+    This is a bundle of updates to the repository that can be accepted and merged into the upstream repository or rejected and not merged.
+    If you would like to share your changes with the upstream repository, click the green "compare and review" button, and github will show you a summary of your commits.
+    If you then click on "Click to create a pull request for this comparison," your request will be sent to the upstream repository for acceptance or rejection.
+    
+6. git resolve : Resolving Conflicts
+    # to be updated.
