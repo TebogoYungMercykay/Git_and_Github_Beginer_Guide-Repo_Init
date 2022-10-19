@@ -9,7 +9,6 @@ The repository has almost all the necessary infomation about repositories on Git
 
 ____________________________________________________________
 
-To be able to create a repostitory one must have git installed,
+You need to have Git installed in order to be able to follow through the guide.
 
-Check The link to the Readme, To See How It Is Installed: https://github.com/TebogoYungMercykay/Project-2---Image-Filter-Microservice/blob/main/Read_GuideLine.txt
-
+### Installing Git: https://www.youtube.com/watch?v=4xqVv2lTo40&ab_channel=TravelsCode
