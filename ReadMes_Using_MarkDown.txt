@@ -1,4 +1,6 @@
-Documentation: https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github
+Documentation: 
+   - https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github
+   - https://www.markdownguide.org/basic-syntax/
 
 Markdown is a light markup language often used for READMEs (though you'll find other use cases for it, too!).
 It is fairly straightforward, and much of the syntax is intuitive.
