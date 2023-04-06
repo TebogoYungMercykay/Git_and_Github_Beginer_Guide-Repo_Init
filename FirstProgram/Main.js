@@ -1,1 +1,1 @@
-console.log("Welcome to Programiz!");
+console.log("Hello World!");
