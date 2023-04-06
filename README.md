@@ -39,7 +39,7 @@ You need to have Git installed in order to be able to follow through the guide.
         }
     }
 - Main.c
-    - ```c
+    ```c
     #include <stdio.h>
     int main() {
         printf("Hello world");
